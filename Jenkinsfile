@@ -21,7 +21,7 @@ pipeline {
                 script {
                     try {
                         // Path to the file you want to send
-                        def filePath = '/home/ajay-test/Downloads/bzImage-initramfs--6.1-r0-dell-qemux86_64-20230926111821'
+                        def filePath = '/home/aditi/Downloads/bzImage-initramfs--6.1-r0-dell-qemux86_64-20230926111821'
                         def httpServerUrl = 'http://localhost:8081/upload' // Adjusted URL
 
                         // Check if file exists
